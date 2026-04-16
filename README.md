@@ -1,19 +1,60 @@
 # Exporting React Gantt Chart with Complete Customization
 
-A quick-start project that helps you to export a Gantt Chart to PDF and Excel document formats in a React application. This project also contains a code snippet to customize the documents and export them.
+A React sample app demonstrating Syncfusion Gantt export to PDF, Excel, and CSV.
 
-Documentation: 
+## Overview
 
-Excel Export: https://ej2.syncfusion.com/react/documentation/gantt/excel-export/
+This project shows a Create React App example using `@syncfusion/ej2-react-gantt` and toolbar-driven export actions.
 
-Pdf Export: https://ej2.syncfusion.com/react/documentation/gantt/pdf-export/
+## Features
 
-Online examples: https://ej2.syncfusion.com/react/demos/#/material/gantt/exporting
+- PDF export with custom task and progress styling
+- Excel export with a custom header, footer, and theme
+- CSV export support
+- Toolbar buttons for `PdfExport`, `ExcelExport`, and `CsvExport`
+- Sample task data loaded from `src/data.js`
 
-## Project prerequisites
+## Dependencies
 
-Make sure that you have the latest versions of NodeJS and visual studio code in your machine before starting to work on this project.
+- `react` ^17.0.1
+- `react-dom` ^17.0.1
+- `react-scripts` 4.0.1
+- `typescript` ^4.1.3
+- `@syncfusion/ej2-react-gantt` ^18.4.42
 
-### How to run this application?
+## Getting started
 
-To run this application, you need to clone the `exporting-react-gantt-chart-with-complete-customization` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using npm install command and run your project using the npm start command.
+1. Open the project folder in Visual Studio Code.
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+4. Visit `http://localhost:3000`.
+
+## Usage
+
+The app uses `toolbarClick` in `src/App.tsx` to export:
+
+- PDF with styled task bars
+- Excel with a custom report header and footer
+- CSV export
+
+## Notes
+
+- Built with Create React App and TypeScript.
+- Customize export settings in `src/App.tsx`.
+
+## Scripts
+
+- `npm start`
+- `npm build`
+- `npm test`
+- `npm eject`
