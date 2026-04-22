@@ -1,60 +1,50 @@
 # Exporting React Gantt Chart with Complete Customization
 
-A React sample app demonstrating Syncfusion Gantt export to PDF, Excel, and CSV.
+A React sample application demonstrating how to export a Syncfusion React Gantt Chart to PDF, Excel, and CSV formats using built-in toolbar actions and export APIs.
+
+## Repository Description
+
+This repository contains a React example that showcases export functionality for the Syncfusion Gantt Chart, including PDF, Excel, and CSV outputs triggered through toolbar interactions.
 
 ## Overview
 
-This project shows a Create React App example using `@syncfusion/ej2-react-gantt` and toolbar-driven export actions.
+The sample focuses on configuring a Gantt chart with multiple export options. It demonstrates how toolbar actions can be wired to export APIs and how export settings can be adjusted in code to control formatting and output behavior.
 
 ## Features
 
-- PDF export with custom task and progress styling
-- Excel export with a custom header, footer, and theme
-- CSV export support
+- PDF export with customized taskbar and progress styling
+- Excel export with configurable header, footer, and theming
+- CSV export support for task data
 - Toolbar buttons for `PdfExport`, `ExcelExport`, and `CsvExport`
-- Sample task data loaded from `src/data.js`
+- Task data loaded from a local data source
 
-## Dependencies
+## Getting Started
 
-- `react` ^17.0.1
-- `react-dom` ^17.0.1
-- `react-scripts` 4.0.1
-- `typescript` ^4.1.3
-- `@syncfusion/ej2-react-gantt` ^18.4.42
+### Prerequisites
 
-## Getting started
+- Node.js (LTS or later)
+- npm
 
-1. Open the project folder in Visual Studio Code.
-2. Install dependencies:
+### Installation
+
+Install project dependencies:
+
 
    ```bash
    npm install
    ```
 
-3. Start the development server:
+Start the development server:
 
    ```bash
    npm start
    ```
 
-4. Visit `http://localhost:3000`.
+Visit `http://localhost:3000`.
 
 ## Usage
 
-The app uses `toolbarClick` in `src/App.tsx` to export:
-
-- PDF with styled task bars
-- Excel with a custom report header and footer
-- CSV export
-
-## Notes
-
-- Built with Create React App and TypeScript.
-- Customize export settings in `src/App.tsx`.
-
-## Scripts
-
-- `npm start`
-- `npm build`
-- `npm test`
-- `npm eject`
+- Export actions are handled using the `toolbarClick` event in the main component file.
+- PDF export applies custom styling to taskbars and progress indicators.
+- Excel export generates a report with customized headers and footers.
+- Export behavior can be modified within the component configuration.
