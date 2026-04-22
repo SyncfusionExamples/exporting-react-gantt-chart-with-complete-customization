@@ -1,19 +1,50 @@
 # Exporting React Gantt Chart with Complete Customization
 
-A quick-start project that helps you to export a Gantt Chart to PDF and Excel document formats in a React application. This project also contains a code snippet to customize the documents and export them.
+A React sample application demonstrating how to export a Syncfusion React Gantt Chart to PDF, Excel, and CSV formats using built-in toolbar actions and export APIs.
 
-Documentation: 
+## Repository Description
 
-Excel Export: https://ej2.syncfusion.com/react/documentation/gantt/excel-export/
+This repository contains a React example that showcases export functionality for the Syncfusion Gantt Chart, including PDF, Excel, and CSV outputs triggered through toolbar interactions.
 
-Pdf Export: https://ej2.syncfusion.com/react/documentation/gantt/pdf-export/
+## Overview
 
-Online examples: https://ej2.syncfusion.com/react/demos/#/material/gantt/exporting
+The sample focuses on configuring a Gantt chart with multiple export options. It demonstrates how toolbar actions can be wired to export APIs and how export settings can be adjusted in code to control formatting and output behavior.
 
-## Project prerequisites
+## Features
 
-Make sure that you have the latest versions of NodeJS and visual studio code in your machine before starting to work on this project.
+- PDF export with customized taskbar and progress styling
+- Excel export with configurable header, footer, and theming
+- CSV export support for task data
+- Toolbar buttons for `PdfExport`, `ExcelExport`, and `CsvExport`
+- Task data loaded from a local data source
 
-### How to run this application?
+## Getting Started
 
-To run this application, you need to clone the `exporting-react-gantt-chart-with-complete-customization` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using npm install command and run your project using the npm start command.
+### Prerequisites
+
+- Node.js (LTS or later)
+- npm
+
+### Installation
+
+Install project dependencies:
+
+
+   ```bash
+   npm install
+   ```
+
+Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+Visit `http://localhost:3000`.
+
+## Usage
+
+- Export actions are handled using the `toolbarClick` event in the main component file.
+- PDF export applies custom styling to taskbars and progress indicators.
+- Excel export generates a report with customized headers and footers.
+- Export behavior can be modified within the component configuration.
