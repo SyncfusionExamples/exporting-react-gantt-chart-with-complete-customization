@@ -1,6 +1,6 @@
 # Exporting React Gantt Chart with Complete Customization
 
-A React sample application demonstrating how to export a Syncfusion React Gantt Chart to PDF, Excel, and CSV formats using built-in toolbar actions and export APIs.
+A React sample application demonstrating how to export a [React Gantt Chart]((https://www.syncfusion.com/react-components/react-gantt-chart)) to PDF, Excel, and CSV formats using built-in toolbar actions and export APIs.
 
 ## Repository Description
 
@@ -48,3 +48,11 @@ Visit `http://localhost:3000`.
 - PDF export applies custom styling to taskbars and progress indicators.
 - Excel export generates a report with customized headers and footers.
 - Export behavior can be modified within the component configuration.
+
+## Related Links
+
+- [Explore React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/react/documentation/gantt/overview)
+- [React Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/react/documentation/gantt/getting-started)
+- [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/)
+- [React Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/react/demos/#/tailwind3/gantt/exporting)
